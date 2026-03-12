@@ -7,9 +7,9 @@
 
   .project {
     position: relative;
-    padding-Top:10px;
-    padding-Bottom:10px;
-    padding-left:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     &:hover {
       .details {
@@ -23,20 +23,19 @@
       height: auto;
     }
 
-    .project-heading{
-      text-align: center; 
-      margin-top: 10px; 
-      margin-bottom: 10px; 
+    .project-heading {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
       font-weight: bold;
-      font-size: 25px;  
+      font-size: 25px;
     }
 
-    .project-details{
+    .project-details {
       // background-color: red;
       margin-left: -20px;
       margin-right: 20px;
       align-items: left;
-
     }
 
     .links_project {
@@ -52,7 +51,6 @@
         text-decoration: none;
 
         i {
-          
           color: var(--bs-accent);
           // @include transition;
 
@@ -84,8 +82,6 @@
       //     font-size: 1.5rem;
       //   }
       // }
-
-      
 
       .technology {
         min-width: 50%;
