@@ -1,6 +1,7 @@
 #footer {
   background-color: var(--bs-secondary);
   padding: 2.5rem 0;
+  margin-top: 5px;
 
   .row {
     p {
@@ -24,7 +25,7 @@
         }
 
         &:visited {
-          color: rgb(255,145,77);
+          color: rgb(255, 145, 77);
         }
       }
     }
